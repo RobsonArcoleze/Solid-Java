@@ -40,3 +40,34 @@ Classe acopladas causam fragilidade no código da aplicação, o que dificulta s
   - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
   - Devemos controlar o nível de acoplamento na nossa aplicação
 
+
+## Single Responsibility Principle
+
+Uma classe deveria ter apenas um único motico para mudar.
+
+
+Autor: Robert (Uncle Bob) Martin
+
+
+- Nesta aula, aprendemos:
+
+  - Que classes/métodos/funções/módulos devem ter uma única responsabilidade bem definida;
+  - Que, segundo o Princípio de Responsabilidade Única (SRP), uma classe deve ter um e apenas um motivo para ser alterada;
+  - Como realizar uma refatoração no nosso sistema, para aplicar o SRP;
+  - Como extrair uma classe.
+
+## Open Closed Principle
+
+Entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, porém fechadas para modificações.
+
+
+Autor: Bertrand Meyer
+
+- Nesta aula, aprendemos:
+
+  - Que cada classe deve conhecer e ser responsável por suas próprias regras de negócio;
+  - Que o princípio Aberto/Fechado (OCP) diz que um sistema deve ser aberto para a extensão, mas fechado para a modificação
+   - Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
+  - Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração.
+
+
