@@ -81,3 +81,41 @@ Autor: Barbara Liskov
 - Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
 
 
+## Dependency Inversion Principle
+
+Abstrações não devem depender de implementações. Implementações devem depender de abstrações.
+
+Autor: Robert (Uncle Bob) Martin
+
+
+## Interface Segregation Principle
+
+Uma classe não deveria ser forçada a depender de métodos que não utilizará.
+
+Autor: Robert (Uncle Bob) Martin
+
+# O que aprendemos?
+
+- Que é mais interessante e mais seguro para o nosso código depender de interfaces (classes abstratas, assinaturas de métodos e interfaces em si) do que das implementações de uma classe;
+- Que as interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento;
+- Que o Princípio de Inversão de Dependência (DIP) diz que implementações devem depender de abstrações e abstrações não devem depender de implementações;
+- Que as interfaces devem definir apenas os métodos que fazem sentido para seu contexto;
+- Que o Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve ser obrigada a implementar um método que ela não precisa;
+- Os conceitos aprendidos neste treinamento formam o acrônimo SOLID
+  - Single Responsibility Principle
+  - Open Closed Principle
+  - Liskov Substitution Principle
+  - Interface Segregation Principle
+  - Dependency Inversion Principle
+  
+## Créditos
+
+Repositório criado com base no curso de SOLID ofertado pela Alura, aulas ministradas pelo professor __Rodrigo Ferreira__.
+
+
+# Autor
+
+Robson de Oliveira Arcoleze
+
+https://www.linkedin.com/in/robsonarcoleze/  
+
